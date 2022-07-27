@@ -50,6 +50,7 @@ export const NavBtn = styled.nav`
       menuOpen &&
       css`
         display: flex;
+     
       `}
   }
 `;

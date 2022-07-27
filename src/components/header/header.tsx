@@ -15,7 +15,7 @@ function Header(){
           <NavLink>Motorista</NavLink>
             <NavLink>Passageiro</NavLink>
             <NavLink>Contactar</NavLink>
-            <NavBtnLink>Projects</NavBtnLink>
+            <NavBtnLink>Torna-se motorista </NavBtnLink>
           </NavBtn>
         </Nav>
       </>
