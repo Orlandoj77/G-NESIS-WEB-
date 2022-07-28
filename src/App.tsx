@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import Header from "./components/header/header"
+import Routing from "./routes";
+import { GlobalStyles } from "./styles/globalStyle";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Header/>
-    <h1>
-     Hello G'NESIS
-   </h1>
+      <GlobalStyles />
+      <Routing />
     </>
- 
-  )
+  );
 }
 
-export default App
+export default App;
