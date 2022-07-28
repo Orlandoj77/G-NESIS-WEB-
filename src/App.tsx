@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import Home from "./Home/Home"
+import Routing from "./routes";
+import { GlobalStyles } from "./styles/globalStyle";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Home/>
-   
-    </>
- 
-  )
+      <GlobalStyles />
+      <Routing />
+  );
 }
 
-export default App
+export default App;
