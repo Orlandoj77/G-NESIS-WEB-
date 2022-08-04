@@ -15,7 +15,6 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled.a`
-  color:#0000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -38,8 +37,6 @@ export const Bars = styled(FaBars)`
   }
 `;
 
-
-
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -50,7 +47,6 @@ export const NavBtn = styled.nav`
       menuOpen &&
       css`
         display: flex;
-     
       `}
   }
 `;
