@@ -1,5 +1,5 @@
 import Routing from "./routes";
-import { GlobalStyles } from "./styles/globalStyle";
+import  GlobalStyles  from "./styles/globalStyle";
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
       <GlobalStyles />
       <Routing />
+      </>
   );
 }
 

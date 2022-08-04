@@ -1,7 +1,9 @@
-import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
-  margin: 0;
+import { createGlobalStyle } from 'styled-components';
+ 
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
   padding: 0;
   box-sizing: border-box;
 
@@ -16,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
   ul, li, ol {
     list-style: none;
   }
-
-
+  }
 `;
+ 
+export default GlobalStyle;
