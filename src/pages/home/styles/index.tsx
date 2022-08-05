@@ -5,8 +5,6 @@ display:flex
 
 `;
 
-
-
 export const  Box = styled.div`
 
 position: absolute;
