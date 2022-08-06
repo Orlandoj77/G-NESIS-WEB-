@@ -16,12 +16,13 @@ export const Button = styled.button`
   font-size: 17px;
   border: none; 
   color: #fff;
+  cursor: pointer;
   
 
 :hover {
   letter-spacing: 0.25em;
   background: #FF5B50;
-  color: #00000;
+  color: #fff;
   box-shadow: 0 0 45px #FF5B50;
   background-color: #fff;
 }
