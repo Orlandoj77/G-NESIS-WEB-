@@ -12,6 +12,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   z-index: 10;
+
 `;
 
 export const NavLink = styled.a`

@@ -4,7 +4,7 @@ import { Container,Button_div,Div,Box } from "./styles/index";
 import Carro from "../../assets/carro.svg"
 import subcrab from "../../assets/subcrab.svg"
 import Button_download from "../../components/butthon/button_download"
-
+import Foother from "../../components/foother";
 
 const Home: React.FC = () => {
   return (
@@ -32,6 +32,7 @@ const Home: React.FC = () => {
             </div>
             <img src={subcrab} />
       </Div>
+      <Foother/>
     </>
   );
 };
