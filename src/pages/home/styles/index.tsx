@@ -82,7 +82,7 @@ flex: 50%;
   min-height: 50px;
   max-width: 150px;
   padding: 0 1rem;
-  color: #0000;
+  color: #000;
   font-size: 15px;
   border: 1px solid #FF5950;
   border-radius: 6px 0 0 6px;
