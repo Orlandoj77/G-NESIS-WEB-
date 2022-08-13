@@ -11,6 +11,10 @@ export const Container = styled.div`
   padding: 20px 30px;
   background-size: 700px 530px;
   background-position: 100px 100px;
+
+  @media screen and (max-width: 767px) {
+    padding: 10px 20px;
+  }
 `;
 
 export const Box = styled.div`
