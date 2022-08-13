@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Box = styled.div`
-  width: 50%;
+  width: 60%;
   align-items: center;
   background: linear-gradient(
     90deg,
@@ -28,23 +28,16 @@ export const Box = styled.div`
   flex-direction: row;
   padding: 50px 30px 25px;
 
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-
-  h1.G_NESIS {
+  h1 {
     font-family: "Audiowide", cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 57px;
-
     color: #ff5950;
   }
 
-  h1 {
+  h2 {
     font-family: "Audiowide", cursive;
     font-weight: 400;
     font-size: 45px;
@@ -55,8 +48,6 @@ export const Box = styled.div`
     display: flex;
     width: 80%;
     font-family: "Abhaya Libre", sans-serif;
-
-    font-family: "Abhaya Libre";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -89,6 +80,50 @@ export const Box = styled.div`
       border: 2px solid #ff5b50;
       background: #ffffff;
       color: #ff5b50;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    button {
+      height: 40px;
+      width: 180px;
+    }
+  }
+
+  @media screen and (max-width: 1040px) {
+    width: 100%;
+
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 2;
+    }
+
+    button {
+      height: 45px;
+      width: 200px;
     }
   }
 `;
