@@ -52,7 +52,7 @@ export const MainFooter = styled.div`
   padding: 20px 50px;
   box-sizing: border-box;
 
-  @media screen and (min-width: 481px) and (max-width: 1020px) {
+  @media screen and (max-width: 1020px) {
     flex-direction: column;
     height: auto;
     align-items: flex-start;
