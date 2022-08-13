@@ -7,6 +7,15 @@ export const Container = styled.div`
   padding: 25px 100px;
   margin-top: 80px;
 
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 10px 40px;
+
+    img {
+      display: none;
+    }
+  }
+
   h2 {
     font-family: "Audiowide", "cursive";
     font-style: normal;
@@ -14,9 +23,36 @@ export const Container = styled.div`
     font-size: 45px;
     line-height: 65px;
     color: #09093c;
+
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  @media screen and (min-width: 767px) and (max-width: 1040px) {
+    padding: 20px 70px;
+
+    h2 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+
+    img {
+      width: 40%;
+    }
   }
 
   div {
+    @media screen and (max-width: 767px) {
+      width: 100%;
+
+      form {
+        width: 100%;
+        height: 40px;
+      }
+    }
+
     form {
       display: flex;
       align-items: center;
