@@ -11,10 +11,11 @@ const Home: FC = () => {
       <Container>
         <Box>
           <h1 className="G_NESIS">G'NESIS.</h1>
-          <h1>Faça dinheiro com a sua motorizada ou o seu carro!</h1>
+          <h2>Faça dinheiro com a sua motorizada ou o seu carro!</h2>
           <p>
-            A G’NESIS ESTÁ COMPROMETIDA EM SER O APLICATIVO DE MOBILIDADE MAIS
-            JUSTO E QUE OFERECE AS MELHORES CONDIÇÕES PARA OS NOSSOS MOTORISTAS.
+            A G&apos;NESIS ESTÁ COMPROMETIDA EM SER O APLICATIVO DE MOBILIDADE
+            MAIS JUSTO E QUE OFERECE AS MELHORES CONDIÇÕES PARA OS NOSSOS
+            MOTORISTAS.
           </p>
 
           <button> Download </button>

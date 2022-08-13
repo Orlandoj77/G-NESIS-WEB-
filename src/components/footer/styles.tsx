@@ -20,6 +20,15 @@ export const MinFooter = styled.div`
   align-items: center;
   justify-content: flex-start;
 
+  @media screen and (max-width: 767px) {
+    height: 30px;
+    padding-left: 30px;
+
+    a {
+      font-size: 13px;
+    }
+  }
+
   a {
     font-family: "Ubuntu";
     font-style: normal;
@@ -43,11 +52,21 @@ export const MainFooter = styled.div`
   padding: 20px 50px;
   box-sizing: border-box;
 
-  div {
-    /* display: flex;
+  @media screen and (min-width: 481px) and (max-width: 1020px) {
+    flex-direction: column;
+    height: auto;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: column; */
+    padding: 10px 30px;
+
+    > ul {
+      flex-direction: row;
+    }
+  }
+
+  div {
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
 
     h3 {
       font-family: "Audiowide", cursive;
@@ -91,11 +110,30 @@ export const MainFooter = styled.div`
       color: #ffffff;
     }
   }
+
   > ul {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    @media screen and (min-width: 481px) and (max-width: 1020px) {
+      width: 100%;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+
+      li {
+        margin: 3px 15px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      li {
+        width: 100%;
+      }
+    }
 
     li {
       display: flex;
