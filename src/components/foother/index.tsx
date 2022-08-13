@@ -3,6 +3,7 @@ import {Container} from "./style/index"
 import {BsWhatsapp,BsInstagram } from "react-icons/bs";
 import {FiFacebook} from "react-icons/fi"
 
+
 function Foother(){
     return(
         <>

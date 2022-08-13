@@ -1,8 +1,12 @@
 import styled, { css } from 'styled-components';
 
 
-export const Container = styled.div`
+export const Container = styled.div`ZZZZZZZZZZZZZZZ
+.cssbuttons-io-button:active .icon {
+ transform: scale(0.95);
+}
 
+}
 `;
 
 
@@ -79,4 +83,6 @@ i::after {
   width: 20px;
   left: 80%;
 }
+
+
 `;
