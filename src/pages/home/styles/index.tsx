@@ -131,3 +131,67 @@ export const Box = styled.div`
     }
   }
 `;
+
+export const Button_div =  styled.div`
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+
+`
+export const Div = styled.div`
+padding: 20px;
+display: flex;
+justify-content: space-around;
+
+h1{
+font-family: 'Audiowide';
+font-weight: 400;
+font-size: 45px;
+width: 70%;
+flex: 50%;
+}
+
+.input-group {
+
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #000;
+  font-size: 15px;
+  border: 1px solid #FF5950;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #FF5950;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+
+  :hover{
+  transition: 1s;
+  background: #FF5B50;
+  color: #fff;
+  box-shadow: 0 0 45px #FF5B50;
+  background-color: #FF5B50;
+}
+
+.button--submit:hover {
+  background-color: #FF5950;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #FF5950;
+  outline: none;
+}
+}
+`

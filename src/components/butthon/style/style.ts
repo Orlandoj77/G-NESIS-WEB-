@@ -1,8 +1,12 @@
 import styled, { css } from 'styled-components';
 
 
-export const Container = styled.div`
+export const Container = styled.div`ZZZZZZZZZZZZZZZ
+.cssbuttons-io-button:active .icon {
+ transform: scale(0.95);
+}
 
+}
 `;
 
 
@@ -16,12 +20,13 @@ export const Button = styled.button`
   font-size: 17px;
   border: none; 
   color: #fff;
+  cursor: pointer;
   
 
 :hover {
   letter-spacing: 0.25em;
   background: #FF5B50;
-  color: #00000;
+  color: #fff;
   box-shadow: 0 0 45px #FF5B50;
   background-color: #fff;
 }
@@ -78,4 +83,6 @@ i::after {
   width: 20px;
   left: 80%;
 }
+
+
 `;
