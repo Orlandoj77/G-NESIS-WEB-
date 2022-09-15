@@ -1,5 +1,5 @@
-import { FaBars } from 'react-icons/fa';
-import styled, { css } from 'styled-components';
+import { FaBars } from "react-icons/fa";
+import styled, { css } from "styled-components";
 
 interface Props {
   menuOpen: boolean;
@@ -8,7 +8,7 @@ interface Props {
 export const Nav = styled.nav`
   height: 60px;
   padding: none;
-  box-shadow: 1px 4px 5px #6F7082;
+  box-shadow: 1px 4px 5px #6f7082;
   display: flex;
   justify-content: space-between;
   z-index: 10;
@@ -22,11 +22,12 @@ export const NavLink = styled.a`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: Ubuntu, sans-serif;
 `;
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #FF5950;
+  color: #ff5950;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -53,19 +54,21 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled.button`
-  background: #FF5950;
+  background: #ff5950;
   width: 160px;
   height: 60%;
   padding: 5px 22px;
   color: #fff;
- border-radius: 10px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
- border:none;
+  border: none;
   text-align: center;
+  font-family: Ubuntu, sans-serif;
+
   :hover {
     transition: all 0.2s ease-in-out;
-    background: #09093C;
+    background: #09093c;
     color: #ffff;
   }
 `;
