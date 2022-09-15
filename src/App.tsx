@@ -1,15 +1,12 @@
 import Routing from "./routes";
-import  GlobalStyles  from "./styles/globalStyle";
-import Home from "./pages/home/index"
-
+import GlobalStyles from "./styles/globalStyle";
 
 function App() {
   return (
     <>
-      {/*<Routing /> quando o elemento é colocado , ele duplica o conteúdo da pág */} 
+      <Routing />
       <GlobalStyles />
-      <Home/>
-      </>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 
-export const Container = styled.div`ZZZZZZZZZZZZZZZ
+export const Container = styled.div`
 .cssbuttons-io-button:active .icon {
  transform: scale(0.95);
 }
