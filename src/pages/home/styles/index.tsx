@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Carro from "../../../assets/carro.svg";
-import Ondas from "../../assets/ondas.svg";
+
 
 export const Container = styled.div`
   display: flex;

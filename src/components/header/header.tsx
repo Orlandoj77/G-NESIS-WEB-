@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Logo from "../../assets/logo.svg";
 import { Bars, Nav, NavBtn, NavBtnLink, NavLink } from "./style";
+import { Link } from "react-router-dom";
+import Home from "../../pages/home";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,14 +10,17 @@ function Header() {
     <>
       <Nav>
         <Bars onClick={() => setMenuOpen(!menuOpen)} />
-        <NavLink>
+      <Link to="/">
+       <NavLink>
           <img src={Logo} />
         </NavLink>
+      </Link>
+       
         <NavBtn menuOpen={menuOpen}>
           <NavLink>Motorista</NavLink>
           <NavLink>Passageiro</NavLink>
           <NavLink>Contactar</NavLink>
-          <NavBtnLink>Torna-se motorista </NavBtnLink>
+        <NavBtnLink > <Link to="driver" > Torna-se motorista </Link>  </NavBtnLink> 
         </NavBtn>
       </Nav>
     </>

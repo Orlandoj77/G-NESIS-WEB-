@@ -3,6 +3,8 @@ import Footer from "../../components/footer";
 import Header from "../../components/header/header";
 import NewsLetter from "../../components/NewsLetter";
 import { Box, Container } from "./styles/index";
+import Driver from "../driver";
+
 
 const Home: FC = () => {
   return (
@@ -18,7 +20,7 @@ const Home: FC = () => {
             MOTORISTAS.
           </p>
 
-          <button> Download </button>
+       <button>  Download </button>
         </Box>
       </Container>
       <NewsLetter />
